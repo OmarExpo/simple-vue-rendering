@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="container mt-4">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Vue-rendering</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+ <img class="img-fluid" v-bind:src=image alt="">
+ <h2>{{ name }}</h2>
+ <p>{{ description }}</p>
+ <div class="h3">${{price}}</div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
